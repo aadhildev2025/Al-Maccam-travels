@@ -2,18 +2,23 @@ import { motion } from 'framer-motion'
 import {
   Compass, MapPin, FileText, Plane,
   Building2, Bus, Users, GraduationCap,
+  UtensilsCrossed, BookOpen,
 } from 'lucide-react'
 import ScrollReveal from './ScrollReveal'
 
 const services = [
   { icon: Compass, title: 'Hajj Packages', desc: 'Meticulously planned Hajj itineraries with full logistical and scholarly support.' },
   { icon: MapPin, title: 'Umrah Packages', desc: 'Bespoke and group packages designed to accommodate various budgets year-round.' },
-  { icon: FileText, title: 'Visa Processing', desc: 'Expedited Saudi visa issuance, biometrics, and verification services.' },
-  { icon: Plane, title: 'Flight Reservations', desc: 'Convenient airline itineraries at best rates with premium carrier options.' },
-  { icon: Building2, title: 'Haram Hotels', desc: 'Premium hotels and suites situated in immediate proximity to the Haram.' },
-  { icon: Bus, title: 'Luxury Transfers', desc: 'Air-conditioned modern coaches for all local and inter-city commutes.' },
+  { icon: Building2, title: 'Hotel Booking', desc: 'Premium hotel accommodations in close proximity to Masjid Al-Haram and Masjid Nabawi.' },
+  { icon: Bus, title: 'Bus Transport', desc: 'Comfortable, air-conditioned bus transfers between Makkah, Madinah, Mina, and Arafat.' },
+  { icon: UtensilsCrossed, title: 'Food & Catering', desc: 'Authentic halal meals and Sri Lankan cuisine prepared throughout your pilgrimage stay.' },
+  { icon: BookOpen, title: 'Expert Guides', desc: 'Experienced and multilingual religious guides to help you perform every rite correctly.' },
+  { icon: Plane, title: 'Flight Reservations', desc: 'Convenient airline itineraries at best rates with premium international carrier options.' },
+  { icon: FileText, title: 'Visa Processing', desc: 'Expedited Saudi visa issuance, biometrics, and document verification services.' },
   { icon: Users, title: 'Family & Groups', desc: 'Specially structured itineraries catering to family needs and senior citizens.' },
-  { icon: GraduationCap, title: 'Pre-Travel Training', desc: 'Interactive seminars and guides explaining the sacred rites of Hajj & Umrah.' },
+  { icon: GraduationCap, title: 'Pre-Travel Training', desc: 'Interactive seminars explaining the sacred rites of Hajj & Umrah before departure.' },
+  { icon: Compass, title: 'Ziyarat Tours', desc: 'Guided tours to sacred historical and religious sites in Makkah and Madinah.' },
+  { icon: Users, title: 'Personal Assistance', desc: 'Dedicated on-ground staff and 24/7 support throughout your entire pilgrimage journey.' },
 ]
 
 const container = {
@@ -48,7 +53,7 @@ export default function ServicesSection() {
             Premium <span className="text-gradient">End-to-End</span> Pilgrimage Support
           </h2>
           <p className="text-gray-500 mt-4 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
-            Allow us to manage the logistics of your pilgrimage so you can focus entirely on your spiritual devotion and prayers.
+            From hotel bookings and bus transport to food, guides and visa processing — we handle every detail so you can focus entirely on your spiritual devotion.
           </p>
         </ScrollReveal>
 

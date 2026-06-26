@@ -1,5 +1,6 @@
 import HeroSection from './HeroSection'
 import AboutSection from './AboutSection'
+import OurPartners from './OurPartners'
 import ServicesSection from './ServicesSection'
 import HajjPackages from './HajjPackages'
 import UmrahPackages from './UmrahPackages'
@@ -16,6 +17,7 @@ export default function HomePage() {
     <main>
       <HeroSection />
       <AboutSection />
+      <OurPartners />
       <ServicesSection />
       <HajjPackages />
       <UmrahPackages />
